@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WaveCommTech</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-[url('/img/bg-img.png')]">
+    <header class="sticky top-0 z-10 bg-indigo-900 text-white">
+      <section class="mx-auto flex max-w-6xl items-center justify-between p-4">
+        <div>
+          <button
+            id="hamburger-button"
+            class="relative h-8 w-8 cursor-pointer text-3xl md:hidden"
+          >
+            <!--- &#9776; --->
+            <div
+              class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+          <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+            <a href="#hero" class="link hover:opacity-90">Início</a>
+            <a href="#about-us" class="link hover:opacity-90">Sobre Nós</a>
+            <a href="#services" class="link hover:opacity-90">Serviços</a>
+            <a href="#contact" class="link hover:opacity-90">Contato</a>
+          </nav>
+        </div>
+        <h1 class="text-1xl font-medium">🛈 Making every Hertz count</h1>
+      </section>
+      <section
+        id="mobile-menu"
+        class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl"
+      >
+        <!--- <button class="text-6xl self-start px-6">
+                &times;
+            </button> --->
+        <nav
+          class="flex min-h-screen flex-col items-center py-8"
+          aria-lable="mobile"
+        >
+          <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
+            >Início</a
+          >
+          <a href="#about-us" class="w-full py-6 text-center hover:opacity-90"
+            >Sobre Nós</a
+          >
+          <a href="#services" class="w-full py-6 text-center hover:opacity-90"
+            >Serviços</a
+          >
+          <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
+            >Contato</a
+          >
+        </nav>
+      </section>
+    </header>
+    <main class="mx-auto">
+      <section
+        id="hero"
+        class="justify-center widescreen:section-min-height tallscreen:section-min-height mx-auto mb-12 flex max-w-6xl scroll-mt-40 flex-col-reverse items-center gap-8 p-6 sm:flex-row"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="sm:text-5sl max-w-md text-center text-3xl font-bold text-indigo-300 sm:text-left"
+          >
+            Empresa Brasileira de Rádio Definido por Software
+            <span class="text-white">WaveCommunications Technologies</span>
+          </h2>
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-400 sm:text-left"
+          >
+            O melhor da tecnologia de Rádio-Definido por Software (RDS)
+          </p>
+        </article>
+        <img
+          class="w-1/2 overflow-hidden rounded-3xl"
+          src="./img/cover_photo-6.png"
+          alt="WaveCommTech"
+        />
+      </section>
+
+      <hr class="mx-auto w-1/2" />
+      <section
+        id="about-us"
+        class="widescreen:section-min-height tallscreen:section-min-height mx-auto my-12 max-w-6xl scroll-mt-20 p-6"
+      >
+        <h2 class="mb-6 text-center text-4xl font-bold text-white sm:text-5xl">
+          Sobre Nós
+        </h2>
+        <ul
+          class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-gray-100 bg-black px-2 py-6 shadow-xl sm:w-5/6"
+          >
+            <h3 class="text-center text-3xl text-white">A Empresa</h3>
+            <p class="text-1xl mt-2 text-center text-slate-400">
+              Somos a WaveComm Tech, uma start-up focada no desenvolvimento de
+              soluções de comunicação sem fio para os mercados de defesa e
+              segurança pública. Uma empresa brasileira que busca aprimorar os
+              sistemas de comunicação sem fio por meio de pesquisa e
+              desenvolvimento em tecnologias de rádio definido por software
+              (RDS). Criamos soluções modernas e customizadas de comunicação sem
+              fio de acordo com as necessidades do seu negócio.
+            </p>
+          </li>
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-gray-100 bg-black px-2 py-6 shadow-xl sm:w-5/6"
+          >
+            <h3 class="text-center text-3xl text-white">
+              Defesa e Segurança Pública
+            </h3>
+            <p class="text-1xl mt-2 text-center text-slate-400">
+              A visão da WaveComm é tornar-se um SDR Design Center capaz de
+              fornecer produtos de hardware e software relacionados a
+              comunicações, guerra eletrônica, inteligência de sinais e
+              segurança cibernética. Teremos o maior prazer em discutir nossos
+              negócios com qualquer potencial cliente ou parceiro interessado em
+              sistemas de comunicação sem fio baseados na tecnologia de
+              rádio-definido por software.
+            </p>
+          </li>
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-gray-100 bg-black px-2 py-6 shadow-xl sm:w-5/6"
+          >
+            <h3 class="text-center text-3xl text-white">
+              Soluções Customizadas
+            </h3>
+            <p class="text-1xl mt-2 text-center text-slate-400">
+              <br />
+              Fornecemos serviços e produtos como desenvolvimento de formas de
+              onda (waveforms) e sistemas de comunicação sem fio para clientes
+              que desejam aprimorar seus recursos de comunicação usando nossas
+              soluções personalizadas com base na tecnologia de rádio definido
+              por software (RDS).<br /><br /><br />
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="mx-auto w-1/2" />
+      <section
+        id="services"
+        class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 bg-slate-300 bg-cover bg-center p-6"
+      >
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-800 sm:text-5xl"
+        >
+          Serviços
+        </h2>
+        <ul
+          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <div
+              class="mx-auto flex items-center rounded-full border-2 border-solid border-indigo-500 bg-slate-50 p-4 shadow-xl"
+            >
+              <svg
+                class="h-16 w-16 fill-current text-indigo-300"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 100 100"
+              >
+                <g id="Vrstva_155">
+                  <path
+                    d="M70 97a1.501 1.501 0 0 1-1.423-1.025L54.201 52.848a1.5 1.5 0 1 1 2.846-.949l14.376 43.127A1.5 1.5 0 0 1 70 97zM30 97a1.5 1.5 0 0 1-1.423-1.974L43.102 51.45a1.5 1.5 0 0 1 2.846.949L31.423 95.975A1.501 1.501 0 0 1 30 97z"
+                  />
+                  <path
+                    d="M70 97c-.384 0-.768-.146-1.061-.439l-29.25-29.25a1.5 1.5 0 1 1 2.121-2.121l29.25 29.25A1.5 1.5 0 0 1 70 97z"
+                  />
+                  <path
+                    d="M30 97a1.5 1.5 0 0 1-1.061-2.56l29.125-29.125a1.5 1.5 0 1 1 2.121 2.121L31.06 96.561A1.491 1.491 0 0 1 30 97zM50 46.25c-5.928 0-10.75-4.822-10.75-10.75S44.072 24.75 50 24.75s10.75 4.822 10.75 10.75S55.928 46.25 50 46.25zm0-18.5c-4.273 0-7.75 3.477-7.75 7.75s3.477 7.75 7.75 7.75 7.75-3.477 7.75-7.75-3.477-7.75-7.75-7.75z"
+                  />
+                  <path
+                    d="M70 37a1.5 1.5 0 0 1-1.5-1.5C68.5 25.299 60.201 17 50 17s-18.5 8.299-18.5 18.5a1.5 1.5 0 1 1-3 0C28.5 23.645 38.145 14 50 14s21.5 9.645 21.5 21.5A1.5 1.5 0 0 1 70 37z"
+                  />
+                  <path
+                    d="M81 37a1.5 1.5 0 0 1-1.5-1.5C79.5 19.233 66.266 6 50 6S20.5 19.233 20.5 35.5a1.5 1.5 0 1 1-3 0C17.5 17.579 32.08 3 50 3s32.5 14.579 32.5 32.5A1.5 1.5 0 0 1 81 37z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="ml-4 flex flex-col items-center">
+              <h2 class="text-left text-3xl text-slate-700">
+                Comunicações Críticas
+              </h2>
+              <p class="text-slate-500">
+                Desenvolvimento de formas de onda para rádio definido por
+                software (RDS).
+              </p>
+            </div>
+          </li>
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <div
+              class="mx-auto flex items-center rounded-full border-2 border-solid border-indigo-500 bg-slate-50 p-4 shadow-xl"
+            >
+              <svg
+                class="h-16 w-16 fill-current text-indigo-300"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 100 100"
+              >
+                <g id="Vrstva_82">
+                  <path
+                    d="M78.77 87.464c-.384 0-.768-.146-1.061-.439L57.203 66.519a1.5 1.5 0 0 1 0-2.121l7.071-7.071a1.5 1.5 0 0 1 2.121 0l20.506 20.506a1.5 1.5 0 0 1 0 2.121l-7.071 7.071a1.499 1.499 0 0 1-1.06.439zM60.385 65.458 78.77 83.843l4.95-4.95-18.385-18.385-4.95 4.95z"
+                  />
+                  <path
+                    d="M60.738 62.361c-.384 0-.768-.146-1.06-.44l-6.364-6.363a1.5 1.5 0 1 1 2.121-2.121l6.364 6.363a1.5 1.5 0 0 1-1.061 2.561z"
+                  />
+                  <path
+                    d="M36.815 60.869a24.013 24.013 0 0 1-17.089-7.078c-9.422-9.423-9.422-24.755 0-34.177 4.565-4.564 10.633-7.078 17.088-7.078 6.455 0 12.523 2.514 17.088 7.079 4.564 4.563 7.078 10.632 7.079 17.087 0 6.455-2.514 12.523-7.078 17.089-4.565 4.564-10.633 7.078-17.088 7.078zm-.001-45.333a21.033 21.033 0 0 0-14.967 6.199c-8.252 8.253-8.252 21.681 0 29.935a21.027 21.027 0 0 0 14.968 6.199 21.028 21.028 0 0 0 14.967-6.199c3.998-3.998 6.199-9.314 6.199-14.968s-2.202-10.968-6.2-14.966a21.031 21.031 0 0 0-14.967-6.2z"
+                  />
+                  <path
+                    d="M27.078 47.938c-.384 0-.767-.146-1.06-.439a15.167 15.167 0 0 1-4.473-10.796 15.17 15.17 0 0 1 4.473-10.797 1.5 1.5 0 1 1 2.121 2.121 12.19 12.19 0 0 0-3.594 8.676c0 3.277 1.276 6.357 3.594 8.675a1.5 1.5 0 0 1-1.061 2.56z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="ml-4 flex flex-col items-center">
+              <h2 class="text-left text-3xl text-slate-700">
+                Pesquisa, Desenvolvimento e Inovação (P&D&I)
+              </h2>
+              <p class="text-slate-500">
+                Encomendas tecnológicas nas áreas de comunicação sem fio,
+                segurança da informação, inteligência artificial e sistemas
+                embarcados.
+              </p>
+            </div>
+          </li>
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <div
+              class="mx-auto flex items-center rounded-full border-2 border-solid border-indigo-500 bg-slate-50 p-4 shadow-xl"
+            >
+              <svg
+                class="h-16 w-16 fill-current text-indigo-300"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 100 100"
+              >
+                <g id="Vrstva_42">
+                  <path
+                    d="M69 87.5H31c-4.687 0-8.5-3.813-8.5-8.5V47c0-4.687 3.813-8.5 8.5-8.5h38c4.687 0 8.5 3.813 8.5 8.5v32c0 4.687-3.813 8.5-8.5 8.5zm-38-46a5.506 5.506 0 0 0-5.5 5.5v32c0 3.032 2.467 5.5 5.5 5.5h38c3.032 0 5.5-2.468 5.5-5.5V47c0-3.032-2.468-5.5-5.5-5.5H31z"
+                  />
+                  <path
+                    d="M33 41a1.5 1.5 0 0 1-1.5-1.5V21c0-4.607 4.02-8.5 8.779-8.5h20c4.609 0 8.221 3.733 8.221 8.5v9.5a1.5 1.5 0 0 1-3 0V21c0-3.084-2.293-5.5-5.221-5.5h-20C37.2 15.5 34.5 18.07 34.5 21v18.5A1.5 1.5 0 0 1 33 41zM50.279 66.75c-4.273 0-7.75-3.477-7.75-7.75s3.477-7.75 7.75-7.75 7.75 3.477 7.75 7.75-3.476 7.75-7.75 7.75zm0-12.5c-2.619 0-4.75 2.131-4.75 4.75s2.131 4.75 4.75 4.75 4.75-2.131 4.75-4.75-2.131-4.75-4.75-4.75z"
+                  />
+                  <path
+                    d="M50 76a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 1 1 3 0v9A1.5 1.5 0 0 1 50 76z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="ml-4 flex flex-col items-center">
+              <h2 class="text-left text-3xl text-slate-700">
+                Security by Design
+              </h2>
+              <p class="text-slate-500">
+                Desenvolvimento de software e aplicações utilizando metodologias
+                de desenvolvimento de software seguro.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <ul
+          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <div
+              class="mx-auto rounded-full border-2 border-solid border-indigo-500 bg-slate-50 p-4 shadow-xl"
+            >
+              <svg
+                class="h-16 w-16 fill-current text-indigo-300"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 100 100"
+              >
+                <g id="Vrstva_46">
+                  <path
+                    d="M82.329 79.32a1.498 1.498 0 0 1-1.136-2.479 41.169 41.169 0 0 0 9.914-24.845H73.131a84.232 84.232 0 0 1-3.376 21.716 1.5 1.5 0 1 1-2.879-.843 81.232 81.232 0 0 0 3.277-22.381 1.5 1.5 0 0 1 1.5-1.491h21a1.502 1.502 0 0 1 1.5 1.517A44.186 44.186 0 0 1 83.467 78.8c-.297.343-.716.52-1.138.52z"
+                  />
+                  <path
+                    d="M92.666 51.497a1.5 1.5 0 0 1-1.5-1.5 41.136 41.136 0 0 0-9.269-26.005 76.699 76.699 0 0 1-11.71 3.82 84.169 84.169 0 0 1 2.979 22.185 1.5 1.5 0 1 1-3 0c0-7.73-1.106-15.425-3.29-22.871a1.502 1.502 0 0 1 1.117-1.887c4.798-1.055 9.419-2.548 13.735-4.44a1.503 1.503 0 0 1 1.738.395 44.148 44.148 0 0 1 10.699 28.802 1.5 1.5 0 0 1-1.499 1.501zM17.67 79.32a1.5 1.5 0 0 1-1.138-.521C9.634 70.789 5.834 60.56 5.834 49.997s3.8-20.792 10.698-28.802a1.501 1.501 0 0 1 2.273 1.958 41.148 41.148 0 0 0-9.972 26.844 41.15 41.15 0 0 0 9.972 26.845 1.5 1.5 0 0 1-1.135 2.478z"
+                  />
+                  <path
+                    d="M31.686 28.204c-.106 0-.215-.012-.323-.036-4.99-1.097-9.8-2.652-14.295-4.621a1.5 1.5 0 0 1 1.204-2.748c4.316 1.891 8.938 3.384 13.736 4.44a1.5 1.5 0 0 1-.322 2.965zM27.721 51.996h-20a1.5 1.5 0 0 1 0-3h20a1.5 1.5 0 1 1 0 3z"
+                  />
+                  <path
+                    d="M50.721 51.996H28.347a1.5 1.5 0 0 1-1.5-1.491 3.774 3.774 0 0 1-.044-.508 84.233 84.233 0 0 1 3.38-23.715 1.495 1.495 0 0 1 1.762-1.043 83.758 83.758 0 0 0 17.912 1.924c.041-.002.081-.004.114-.004a1.5 1.5 0 0 1 .02 3c-.042.002-.082.004-.116.004a86.863 86.863 0 0 1-17.192-1.703 81.286 81.286 0 0 0-2.874 20.536h20.912a1.5 1.5 0 1 1 0 3z"
+                  />
+                  <path
+                    d="M31.684 74.915a1.502 1.502 0 0 1-1.439-1.078 84.667 84.667 0 0 1-3.398-23.207c-.005-.828.663-1.634 1.491-1.634h.009c.824 0 1.495.791 1.5 1.616a79.97 79.97 0 0 0 2.897 20.983c5.327-1.084 10.69-1.61 15.977-1.692V50.996a1.5 1.5 0 1 1 3 0v20.339c0 .709-.492 1.303-1.153 1.46a1.734 1.734 0 0 1-.567.099c-5.94 0-11.994.668-17.993 1.986-.11.024-.218.035-.324.035z"
+                  />
+                  <path
+                    d="M71.721 51.996h-21.5a1.5 1.5 0 0 1-1.5-1.5V28.659a1.5 1.5 0 0 1 1.496-1.5c6.089-.015 12.082-.661 17.81-1.92a1.5 1.5 0 0 1 .644 2.93c-5.468 1.202-11.163 1.865-16.951 1.974v18.853h20a1.5 1.5 0 0 1 .001 3zM82.331 23.674a1.5 1.5 0 0 1-1.138-.521c-5.555-6.449-12.813-10.96-20.992-13.046a1.499 1.499 0 0 1-1.082-1.824A1.497 1.497 0 0 1 60.943 7.2c8.776 2.238 16.565 7.078 22.523 13.995a1.501 1.501 0 0 1-1.135 2.479z"
+                  />
+                  <path
+                    d="M68.314 28.204a1.5 1.5 0 0 1-1.438-1.079 80.766 80.766 0 0 0-7.602-17.721 1.5 1.5 0 1 1 2.596-1.503 83.744 83.744 0 0 1 7.885 18.38 1.5 1.5 0 0 1-1.441 1.923zM17.668 23.674a1.499 1.499 0 0 1-1.136-2.479C22.49 14.278 30.278 9.438 39.056 7.199c.807-.206 1.62.28 1.824 1.083a1.499 1.499 0 0 1-1.082 1.824c-8.179 2.085-15.438 6.597-20.992 13.046a1.497 1.497 0 0 1-1.138.522z"
+                  />
+                  <path
+                    d="M31.686 28.204a1.5 1.5 0 0 1-1.441-1.922 83.734 83.734 0 0 1 7.884-18.38 1.5 1.5 0 1 1 2.596 1.503 80.851 80.851 0 0 0-7.601 17.721 1.5 1.5 0 0 1-1.438 1.078z"
+                  />
+                  <path
+                    d="M39.426 10.154a1.5 1.5 0 0 1-.37-2.954 44.65 44.65 0 0 1 21.888 0 1.5 1.5 0 1 1-.742 2.907 41.616 41.616 0 0 0-20.403 0 1.562 1.562 0 0 1-.373.047z"
+                  />
+                  <path
+                    d="M50.221 30.496a1.5 1.5 0 0 1-1.5-1.5v-20a1.5 1.5 0 1 1 3 0v20a1.5 1.5 0 0 1-1.5 1.5zM60.571 92.841a1.5 1.5 0 0 1-.37-2.953c8.179-2.086 15.438-6.597 20.992-13.046a1.5 1.5 0 0 1 2.273 1.957c-5.958 6.918-13.747 11.758-22.523 13.995a1.5 1.5 0 0 1-.372.047z"
+                  />
+                  <path
+                    d="M60.571 92.841a1.5 1.5 0 0 1-1.297-2.252 80.814 80.814 0 0 0 7.602-17.721 1.492 1.492 0 0 1 1.762-1.043c4.989 1.097 9.798 2.651 14.294 4.621a1.5 1.5 0 0 1-1.204 2.748 73.236 73.236 0 0 0-12.383-4.129 83.809 83.809 0 0 1-7.476 17.027c-.276.48-.78.749-1.298.749zM39.428 92.841c-.123 0-.247-.015-.372-.047-8.777-2.238-16.566-7.077-22.524-13.995a1.5 1.5 0 0 1 2.273-1.957c5.555 6.448 12.813 10.96 20.992 13.046a1.498 1.498 0 0 1-.369 2.953z"
+                  />
+                  <path
+                    d="M39.428 92.841a1.498 1.498 0 0 1-1.299-.749 83.845 83.845 0 0 1-7.475-17.026 73.218 73.218 0 0 0-12.384 4.129 1.5 1.5 0 1 1-1.204-2.748c4.495-1.97 9.305-3.524 14.295-4.621a1.495 1.495 0 0 1 1.762 1.043 80.832 80.832 0 0 0 7.601 17.722 1.498 1.498 0 0 1-1.296 2.25z"
+                  />
+                  <path
+                    d="M50 94.163c-3.7 0-7.382-.461-10.944-1.369a1.498 1.498 0 0 1-1.082-1.824 1.497 1.497 0 0 1 1.824-1.082 41.663 41.663 0 0 0 20.403 0c.807-.208 1.62.28 1.824 1.082a1.498 1.498 0 0 1-1.082 1.824A44.323 44.323 0 0 1 50 94.163z"
+                  />
+                  <path
+                    d="M50.221 92.496a1.5 1.5 0 0 1-1.5-1.5V71.335c0-.398.158-.78.44-1.062.282-.282.693-.418 1.064-.438 6.892.017 12.914.612 18.413 1.821a1.5 1.5 0 0 1 1.143 1.787 1.494 1.494 0 0 1-1.787 1.142c-4.886-1.073-10.223-1.645-16.272-1.737v18.147a1.502 1.502 0 0 1-1.501 1.501z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="ml-4 flex flex-col items-center">
+              <h2 class="text-left text-3xl text-slate-700">
+                Sistemas Embarcados
+              </h2>
+              <p class="text-1xl mt-2 text-left text-slate-500">
+                Desenvolvimento de produtos baseados em sistemas embarcados.
+              </p>
+            </div>
+          </li>
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <div
+              class="mx-auto rounded-full border-2 border-solid border-indigo-500 bg-slate-50 p-4 shadow-xl"
+            >
+              <svg
+                class="h-16 w-16 fill-current text-indigo-300"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 100 100"
+              >
+                <g id="Vrstva_165">
+                  <path
+                    d="M80.453 78h-25.5a1.5 1.5 0 1 1 0-3h24V55a1.5 1.5 0 1 1 3 0v21.5a1.5 1.5 0 0 1-1.5 1.5zM80.453 45.5a1.5 1.5 0 0 1-1.5-1.5V25h-24a1.5 1.5 0 1 1 0-3h25.5a1.5 1.5 0 0 1 1.5 1.5V44a1.5 1.5 0 0 1-1.5 1.5zM19.453 45.5a1.5 1.5 0 0 1-1.5-1.5V23.5a1.5 1.5 0 0 1 1.5-1.5h25.5a1.5 1.5 0 1 1 0 3h-24v19a1.5 1.5 0 0 1-1.5 1.5zM44.953 78h-25.5a1.5 1.5 0 0 1-1.5-1.5V55a1.5 1.5 0 1 1 3 0v20h24a1.5 1.5 0 1 1 0 3z"
+                  />
+                  <path
+                    d="M54.844 77.874a1.498 1.498 0 0 1-.975-2.639 5.95 5.95 0 0 0 2.085-4.525c0-3.283-2.671-5.954-5.954-5.954s-5.953 2.671-5.953 5.954c0 1.69.723 3.308 1.983 4.437a1.5 1.5 0 0 1-2.001 2.234 8.96 8.96 0 0 1-2.982-6.671c0-4.938 4.016-8.954 8.953-8.954s8.954 4.017 8.954 8.954c0 2.62-1.143 5.1-3.135 6.805a1.5 1.5 0 0 1-.975.359zM86.105 58.768a8.95 8.95 0 0 1-6.805-3.134 1.5 1.5 0 0 1 2.279-1.951 5.95 5.95 0 0 0 4.525 2.085c3.283 0 5.954-2.601 5.954-5.884S89.389 44 86.105 44h-.002c-1.689 0-3.305.653-4.434 1.914-.552.618-1.501.636-2.118.082a1.439 1.439 0 0 1-.117-2.066c1.697-1.895 4.127-2.93 6.668-2.93h.004c4.937 0 8.954 3.947 8.954 8.884s-4.017 8.884-8.955 8.884zM13.895 58.768c-4.938 0-8.954-3.947-8.954-8.884C4.94 44.947 8.957 41 13.895 41h.004c2.54 0 4.97 1.017 6.667 2.913.552.617.5 1.531-.117 2.083-.618.552-1.565.552-2.118-.065C17.202 44.671 15.586 44 13.898 44h-.003c-3.284 0-5.955 2.601-5.955 5.884s2.671 5.919 5.954 5.919c1.97 0 3.415-.588 4.419-1.761a1.502 1.502 0 0 1 2.115-.173c.629.539.703 1.48.164 2.11-1.585 1.853-3.839 2.789-6.697 2.789zM50 37.874c-4.937 0-8.953-4.017-8.953-8.954 0-2.574 1.004-4.835 2.906-6.538a1.499 1.499 0 1 1 2.001 2.235c-1.266 1.133-1.908 2.58-1.907 4.302 0 3.284 2.67 5.955 5.953 5.955s5.954-2.671 5.954-5.954c0-1.743-.646-3.143-1.975-4.28a1.5 1.5 0 1 1 1.95-2.279c2.007 1.717 3.025 3.924 3.025 6.559-.001 4.938-4.017 8.954-8.954 8.954z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="ml-4 flex flex-col items-center">
+              <h2 class="text-left text-3xl text-slate-700">Projetos HW/SW</h2>
+              <p class="text-1xl mt-2 text-left text-slate-500">
+                Co-design de sistemas complexos de hardware/software.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="mx-auto w-1/2" />
+      <section
+        id="contact"
+        class="my-12 scroll-mt-20 p-6"
+      >
+        <h2 class="mb-6 text-center text-4xl font-bold text-white sm:text-5xl">
+          Contato
+        </h2>
+        <ul
+          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <svg
+              class="h-16 w-16 fill-current text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="-1 -1 70 70"
+            >
+              <g>
+                <path
+                  d="M27.99 62.413c-.036.04-1.426 1.594-3.151 1.594h-.152c-1.726 0-3.125-1.554-3.158-1.594C12.867 52.451-.01 38.277-.01 24.417-.01 11.182 11.101.007 24.219.007c15.105 0 23.771 11.175 23.771 24.41 0 13.243-11.871 28.651-20 37.996ZM24.219 4.007c-10.966 0-20.229 9.347-20.229 20.41 0 11.788 11.246 24.69 19.458 34.11l1.047 1.203c.073.07.174.15.265.213a2.12 2.12 0 0 0 .263-.213C37.609 45.248 43.99 33.367 43.99 24.417c0-10.16-6.114-20.41-19.771-20.41Zm-.158 32.112c-6.627 0-12-5.373-12-12s5.373-12 12-12 12 5.373 12 12-5.373 12-12 12Zm-.092-20.088c-4.411 0-8 3.589-8 8 0 4.412 3.68 8.088 8.092 8.088 4.412 0 7.908-3.676 7.908-8.088 0-4.411-3.588-8-8-8Z"
+                />
+              </g>
+            </svg>
+            <div class="items-left flex flex-col">
+              <h2 class="text-left text-3xl text-slate-300">WaveCommTech</h2>
+              <p class="text-1xl mt-2 text-left text-slate-500">
+                São José dos Campos - SP / Brazil
+              </p>
+            </div>
+          </li>
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <svg
+              class="h-16 w-16 fill-current text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="-1 -1 570 570"
+            >
+              <path
+                d="M374.456 293.506c-9.7-10.1-21.4-15.5-33.8-15.5-12.3 0-24.1 5.3-34.2 15.4l-31.6 31.5c-2.6-1.4-5.2-2.7-7.7-4-3.6-1.8-7-3.5-9.9-5.3-29.6-18.8-56.5-43.3-82.3-75-12.5-15.8-20.9-29.1-27-42.6 8.2-7.5 15.8-15.3 23.2-22.8 2.8-2.8 5.6-5.7 8.4-8.5 21-21 21-48.2 0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5-6-6.2-12.3-12.6-18.8-18.6-9.7-9.6-21.3-14.7-33.5-14.7s-24 5.1-34 14.7l-.2.2-34 34.3c-12.8 12.8-20.1 28.4-21.7 46.5-2.4 29.2 6.2 56.4 12.8 74.2 16.2 43.7 40.4 84.2 76.5 127.6 43.8 52.3 96.5 93.6 156.7 122.7 23 10.9 53.7 23.8 88 26 2.1.1 4.3.2 6.3.2 23.1 0 42.5-8.3 57.7-24.8.1-.2.3-.3.4-.5 5.2-6.3 11.2-12 17.5-18.1 4.3-4.1 8.7-8.4 13-12.9 9.9-10.3 15.1-22.3 15.1-34.6 0-12.4-5.3-24.3-15.4-34.3l-54.9-55.1zm35.8 105.3c-.1 0-.1.1 0 0-3.9 4.2-7.9 8-12.2 12.2-6.5 6.2-13.1 12.7-19.3 20-10.1 10.8-22 15.9-37.6 15.9-1.5 0-3.1 0-4.6-.1-29.7-1.9-57.3-13.5-78-23.4-56.6-27.4-106.3-66.3-147.6-115.6-34.1-41.1-56.9-79.1-72-119.9-9.3-24.9-12.7-44.3-11.2-62.6 1-11.7 5.5-21.4 13.8-29.7l34.1-34.1c4.9-4.6 10.1-7.1 15.2-7.1 6.3 0 11.4 3.8 14.6 7l.3.3c6.1 5.7 11.9 11.6 18 17.9 3.1 3.2 6.3 6.4 9.5 9.7l27.3 27.3c10.6 10.6 10.6 20.4 0 31-2.9 2.9-5.7 5.8-8.6 8.6-8.4 8.6-16.4 16.6-25.1 24.4-.2.2-.4.3-.5.5-8.6 8.6-7 17-5.2 22.7l.3.9c7.1 17.2 17.1 33.4 32.3 52.7l.1.1c27.6 34 56.7 60.5 88.8 80.8 4.1 2.6 8.3 4.7 12.3 6.7 3.6 1.8 7 3.5 9.9 5.3.4.2.8.5 1.2.7 3.4 1.7 6.6 2.5 9.9 2.5 8.3 0 13.5-5.2 15.2-6.9l34.2-34.2c3.4-3.4 8.8-7.5 15.1-7.5 6.2 0 11.3 3.9 14.4 7.3l.2.2 55.1 55.1c10.3 10.2 10.3 20.7.1 31.3zM256.056 112.706c26.2 4.4 50 16.8 69 35.8s31.3 42.8 35.8 69c1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.4-1.2 12.3-8.2 11.1-15.6-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3 3.7-15.6 11s3.5 14.4 10.9 15.6zM473.256 209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2 3.7-15.5 11-1.2 7.4 3.7 14.3 11.1 15.6 46.6 7.9 89.1 30 122.9 63.7 33.8 33.8 55.8 76.3 63.7 122.9 1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.3-1.1 12.3-8.1 11-15.4z"
+              />
+            </svg>
+            <a href="tel:+551151961827">
+              <h2 class="ml-4 pb-6 text-center text-2xl text-slate-300">
+                +55 (11) 5196-1827
+              </h2>
+            </a>
+          </li>
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <svg
+              class="h-16 w-16 fill-current text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="-1 -1 80 80"
+            >
+              <g>
+                <path d="M64 36.999c0 3.314-1.686 7-5 7H7c-3.314
+                0-7-3.686-7-7v-32c0-.161.047-.3.064-.453-.107-.578.01-1.191.424-1.669a1.98
+                1.98 0 0 1 .354-.315C2.113.871 4.639-.001 7-.001h52c2.738 0
+                4.346 1.169 4.829 3.438.133.327.179.669.134
+                1.011.011.184.037.355.037.551v32Zm-57 3h52c1.104 0 1-1.897
+                1-3V8.346L33.309 29.698a1.99 1.99 0 0 1-1.309.488c-.467
+                0-.934-.162-1.31-.488L4 8.346v28.653c0 1.103 1.897 3 3
+                3Zm51-36H7c-.553 0-1.305-.026-1.919.088L32 25.54 59.028
+                3.999H58Z"/
+              </g>
+            </svg>
+            <a
+              href="mailto:contact@wavecommunications.tech"
+              class="link hover:opacity-90"
+            >
+              <h2 class="pb-7 text-center text-2xl text-slate-300">
+                contact@wavecommunications.tech
+              </h2>
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <svg
+              class="h-16 w-16 fill-current text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="0 0 70 70"
+            >
+              <path
+                d="M58.827,43.220 C57.101,44.462 52.274,46.112 32.014,46.112 C10.294,46.112 7.093,44.220 6.061,43.598 C0.696,40.376 0.063,27.346 -0.003,23.430 C0.046,20.466 0.567,5.843 6.065,2.540 C7.099,1.917 10.317,0.013 32.014,0.013 C52.261,0.013 57.093,1.671 58.827,2.919 C63.643,6.388 64.054,19.471 64.065,23.380 C64.052,28.239 63.513,39.848 58.827,43.220 ZM56.491,6.165 C55.790,5.661 51.776,4.013 32.014,4.013 C12.915,4.013 8.888,5.509 8.128,5.968 C6.220,7.112 4.155,13.993 3.997,23.419 C4.157,32.866 6.194,39.013 8.124,40.171 C8.882,40.628 12.894,42.112 32.014,42.112 C51.792,42.112 55.794,40.475 56.491,39.973 C58.192,38.749 60.038,33.038 60.065,23.391 C60.038,13.895 58.204,7.399 56.491,6.165 ZM27.061,35.962 C26.745,36.153 26.386,36.249 26.028,36.249 C25.690,36.249 25.350,36.163 25.046,35.991 C24.417,35.636 24.028,34.970 24.028,34.249 C24.028,34.249 24.028,12.159 24.028,12.159 C24.028,11.438 24.417,10.772 25.046,10.417 C25.673,10.063 26.442,10.073 27.061,10.446 C27.061,10.446 45.058,21.489 45.058,21.489 C45.657,21.850 46.024,22.501 46.024,23.202 C46.024,23.903 45.657,24.552 45.058,24.915 C45.058,24.915 27.061,35.962 27.061,35.962 ZM28.028,15.700 C28.028,15.700 28.028,30.706 28.028,30.706 C28.028,30.706 40.153,23.202 40.153,23.202 C40.153,23.202 28.028,15.700 28.028,15.700 Z"
+              />
+            </svg>
+            <a
+              href="https://www.youtube.com/@WaveCommTech"
+              class="link hover:opacity-90"
+            >
+              <h2 class="ml-4 pb-6 text-center text-2xl text-slate-300">
+                @WaveCommTech
+              </h2>
+            </a>
+          </li>
+          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+            <svg
+              class="h-16 w-16 fill-current text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="-300 0 1200 1200"
+            >
+              <g>
+                <path
+                  d="M577.1 703H460c-13.9 0-25.2-11.3-25.2-25.2V489.5c0-19.3-3.2-34.3-9.4-43.4-3.5-5.1-9.5-11.1-24.8-11.1-22.4 0-32.7 16.9-36.7 27.1 0 0 0 .1-.1.1-.6 1.5-2 6.2-2 19V678c0 13.9-11.3 25.2-25.2 25.2h-117c-6.6 0-13.1-2.6-17.8-7.4-4.7-4.7-7.3-11.2-7.3-17.9.5-120.6 1.2-355.4 0-381.1-.3-6.8 2.2-13.6 6.9-18.5s11.4-7.8 18.2-7.8h117.1c10.3 0 19 6.1 23 14.9 23.2-15.4 50.9-23.2 82.5-23.2 46.9 0 86.6 16.2 114.9 46.8 30 32.5 45.2 78.5 45.2 136.9V678c0 13.9-11.3 25-25.2 25zm-91.9-50.3h66.7v-207c0-44.6-11-80.1-31.8-102.8-18.4-20-45.4-30.6-77.8-30.6-45.2 0-67 21.1-81.9 43.1-3.6 9.6-12.8 16.3-23.6 16.3h-.8c-9.2 0-17.5-4.9-21.9-12.9-3.2-5.7-4-12.3-2.4-18.4v-19.7h-66.3c.6 72.9-.1 262.8-.3 332.1h66.6V481.2c0-16.4 1.8-28.5 5.7-38.1 6.3-15.7 16.2-29.3 28.5-39.4 15.4-12.6 34.4-19.1 54.9-19.1 36.2 0 56.1 18 66.3 33 12.1 17.6 18.1 41.8 18.1 71.8v163.3zM154.9 703H37.8c-13.9 0-25.2-11.3-25.2-25.2V295.6c0-13.9 11.3-25.2 25.2-25.2h117.1c13.9 0 25.2 11.3 25.2 25.2V678c0 13.8-11.3 25-25.2 25zM63 652.7h66.7v-332H63v332zm33.3-402.2h-.7c-25.3 0-48.2-8.9-64.6-25C14.7 209.6 5.7 188 5.7 164.4c0-24 9.3-45.9 26.1-61.7 16.6-15.6 39.8-24.3 65.3-24.3 25.9 0 48.3 8.5 64.9 24.6 16 15.5 25.2 37.1 25.7 60.9v.6c0 23.7-9.1 45.5-25.6 61.3-16.5 15.9-39.9 24.7-65.8 24.7zm.8-121.8c-25 0-41.1 14-41.1 35.6 0 21.3 15.9 35.7 39.6 35.7h.8c24.9 0 41-13.9 41.1-35.4-.7-22.5-15.7-35.9-40.4-35.9z"
+                />
+              </g>
+            </svg>
+            <a
+              href="https://www.linkedin.com/company/wavecomm-tech/"
+              class="link hover:opacity-90"
+            >
+              <h2 class="pb-7 text-left text-2xl text-slate-300">
+                company/wavecomm-tech
+              </h2>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer id="footer" class="bg-indigo-900 text-xl text-white">
+      <section
+        class="mx-auto flex max-w-6xl flex-col p-4 sm:flex-row sm:justify-between"
+      >
+        <div class="flex flex-col sm:flex-row">
+          <svg
+            class="h-16 w-16 fill-current text-slate-300"
+            xmlns="http://www.w3.org/2000/svg"
+            xml:space="preserve"
+            viewBox="-25 -25 200 200"
+          >
+            <g>
+              <path d="M64 36.999c0 3.314-1.686 7-5 7H7c-3.314
+              0-7-3.686-7-7v-32c0-.161.047-.3.064-.453-.107-.578.01-1.191.424-1.669a1.98
+              1.98 0 0 1 .354-.315C2.113.871 4.639-.001 7-.001h52c2.738 0 4.346
+              1.169 4.829 3.438.133.327.179.669.134
+              1.011.011.184.037.355.037.551v32Zm-57 3h52c1.104 0 1-1.897
+              1-3V8.346L33.309 29.698a1.99 1.99 0 0 1-1.309.488c-.467
+              0-.934-.162-1.31-.488L4 8.346v28.653c0 1.103 1.897 3 3
+              3Zm51-36H7c-.553 0-1.305-.026-1.919.088L32 25.54 59.028
+              3.999H58Z"/
+            </g>
+          </svg>
+          <a
+            href="mailto:contact@wavecommunications.tech"
+            class="link hover:opacity-90"
+          >
+            <h2 class="text-slate-300">contact@wavecommunications.tech</h2>
+          </a>
+        </div>
+        <nav class="hidden flex-col gap-2 md:flex" aria-lable="footer">
+          <a href="#hero" class="link hover:opacity-90">Início</a>
+          <a href="#about-us" class="link hover:opacity-90">Sobre Nós</a>
+          <a href="#services" class="link hover:opacity-90">Serviços</a>
+          <a href="#contact" class="link hover:opacity-90">Contato</a>
+        </nav>
+        <div class="flex flex-col sm:gap-2">
+          <p class="text-right">Copyright &copy; <span id="year">2023</span></p>
+          <p class="text-right">Todos os direitos reservados.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
