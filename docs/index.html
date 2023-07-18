@@ -31,7 +31,7 @@
       </section>
       <section
         id="mobile-menu"
-        class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl"
+        class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-gray-800 text-5xl"
       >
         <!--- <button class="text-6xl self-start px-6">
                 &times;
@@ -58,7 +58,7 @@
     <main class="mx-auto">
       <section
         id="hero"
-        class="justify-center widescreen:section-min-height tallscreen:section-min-height mx-auto mb-12 flex max-w-6xl scroll-mt-40 flex-col-reverse items-center gap-8 p-6 sm:flex-row"
+        class="widescreen:section-min-height tallscreen:section-min-height mx-auto mb-12 flex max-w-6xl scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
       >
         <article class="sm:w-1/2">
           <h2
@@ -83,19 +83,19 @@
       <hr class="mx-auto w-1/2" />
       <section
         id="about-us"
-        class="justify-center flex flex-col widescreen:section-min-height tallscreen:section-min-height mx-auto my-12 max-w-6xl scroll-mt-20 p-6"
+        class="widescreen:section-min-height tallscreen:section-min-height mx-auto my-12 flex max-w-6xl scroll-mt-20 flex-col justify-center p-2 lg:p-6"
       >
         <h2 class="mb-6 text-center text-4xl font-bold text-white sm:text-5xl">
           Sobre Nós
         </h2>
         <ul
-          class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row"
+          class="mx-auto my-12 grid list-none grid-cols-1 items-stretch gap-2 text-gray-200 lg:grid-cols-3"
         >
           <li
-            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-gray-100 bg-black px-2 py-6 shadow-xl sm:w-5/6"
+            class="items-center rounded-3xl border border-solid border-gray-100 bg-gray-900 px-2 py-6 shadow-xl"
           >
-            <h3 class="text-center text-3xl text-white">A Empresa</h3>
-            <p class="text-1xl mt-2 text-center text-slate-400">
+            <h3 class="h-20 text-center text-3xl">A Empresa</h3>
+            <p class="text-1xl mt-2 text-center">
               Somos a WaveComm Tech, uma start-up focada no desenvolvimento de
               soluções de comunicação sem fio para os mercados de defesa e
               segurança pública. Uma empresa brasileira que busca aprimorar os
@@ -106,12 +106,12 @@
             </p>
           </li>
           <li
-            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-gray-100 bg-black px-2 py-6 shadow-xl sm:w-5/6"
+            class="items-center rounded-3xl border border-solid border-gray-100 bg-gray-900 px-2 py-6 shadow-xl"
           >
-            <h3 class="text-center text-3xl text-white">
+            <h3 class="h-20 text-center text-3xl">
               Defesa e Segurança Pública
             </h3>
-            <p class="text-1xl mt-2 text-center text-slate-400">
+            <p class="text-1xl mt-2 text-center">
               A visão da WaveComm é tornar-se um SDR Design Center capaz de
               fornecer produtos de hardware e software relacionados a
               comunicações, guerra eletrônica, inteligência de sinais e
@@ -122,12 +122,12 @@
             </p>
           </li>
           <li
-            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-gray-100 bg-black px-2 py-6 shadow-xl sm:w-5/6"
+            class="flex flex-col items-center rounded-3xl border border-solid border-gray-100 bg-gray-900 px-2 py-6 shadow-xl"
           >
             <h3 class="text-center text-3xl text-white">
               Soluções Customizadas
             </h3>
-            <p class="text-1xl mt-2 text-center text-slate-400">
+            <p class="text-1xl mt-2 text-center">
               <br />
               Fornecemos serviços e produtos como desenvolvimento de formas de
               onda (waveforms) e sistemas de comunicação sem fio para clientes
@@ -142,15 +142,15 @@
       <hr class="mx-auto w-1/2" />
       <section
         id="services"
-        class="justify-center flex flex-col widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-14 bg-slate-300 bg-cover bg-center p-6"
+        class="widescreen:section-min-height tallscreen:section-min-height my-12 flex scroll-mt-14 flex-col justify-center bg-slate-300 bg-cover bg-center p-2"
       >
         <h2
-          class="mb-6 text-center text-4xl font-bold text-slate-800 sm:text-5xl"
+          class="my-6 text-center text-4xl font-bold text-slate-800 sm:text-5xl"
         >
           Serviços
         </h2>
         <ul
-          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-left gap-8 lg:flex-row sm:items-center"
+          class="mx-auto grid list-none grid-cols-1 gap-2 lg:max-w-6xl lg:grid-cols-3"
         >
           <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
             <div
@@ -182,9 +182,9 @@
               </svg>
             </div>
             <div class="ml-4 flex flex-col items-center">
-              <h2 class="text-left text-3xl text-slate-700">
+              <h3 class="text-2xl text-slate-700 lg:text-3xl">
                 Comunicações Críticas
-              </h2>
+              </h3>
               <p class="text-slate-500">
                 Desenvolvimento de formas de onda para rádio definido por
                 software (RDS).
@@ -218,9 +218,9 @@
               </svg>
             </div>
             <div class="ml-4 flex flex-col items-center">
-              <h2 class="text-left text-3xl text-slate-700">
-                Pesquisa, Desenvolvimento e Inovação (P&D&I)
-              </h2>
+              <h3 class="text-left text-2xl text-slate-700 lg:text-3xl">
+                Pesquisa, Desenvolvimento e Inovação (P&amp;D&amp;I)
+              </h3>
               <p class="text-slate-500">
                 Encomendas tecnológicas nas áreas de comunicação sem fio,
                 segurança da informação, inteligência artificial e sistemas
@@ -228,7 +228,7 @@
               </p>
             </div>
           </li>
-          <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
+          <li class="flex flex-row items-center px-2 py-6 sm:w-5/6">
             <div
               class="mx-auto flex items-center rounded-full border-2 border-solid border-indigo-500 bg-slate-50 p-4 shadow-xl"
             >
@@ -251,10 +251,10 @@
                 </g>
               </svg>
             </div>
-            <div class="ml-4 flex flex-col items-center">
-              <h2 class="text-left text-3xl text-slate-700">
+            <div class="ml-4 flex flex-col">
+              <h3 class="text-2xl text-slate-700 lg:text-3xl">
                 Security by Design
-              </h2>
+              </h3>
               <p class="text-slate-500">
                 Desenvolvimento de software e aplicações utilizando metodologias
                 de desenvolvimento de software seguro.
@@ -263,7 +263,7 @@
           </li>
         </ul>
         <ul
-          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-left gap-8 sm:flex-row sm:items-center"
+          class="items-left mx-auto mb-12 flex max-w-6xl list-none flex-col gap-8 lg:flex-row lg:items-center"
         >
           <li class="flex w-2/3 flex-row items-center px-2 py-6 sm:w-5/6">
             <div
@@ -321,10 +321,10 @@
                 </g>
               </svg>
             </div>
-            <div class="ml-4 flex flex-col items-left">
-              <h2 class="text-left text-3xl text-slate-700">
+            <div class="items-left ml-4 flex flex-col">
+              <h3 class="text-2xl text-slate-700 lg:text-3xl">
                 Sistemas Embarcados
-              </h2>
+              </h3>
               <p class="text-1xl mt-2 text-left text-slate-500">
                 Desenvolvimento de produtos baseados em sistemas embarcados.
               </p>
@@ -350,8 +350,10 @@
                 </g>
               </svg>
             </div>
-            <div class="ml-4 flex flex-col items-left">
-              <h2 class="text-left text-3xl text-slate-700">Projetos HW/SW</h2>
+            <div class="items-left ml-4 flex flex-col">
+              <h3 class="text-2xl text-slate-700 lg:text-3xl">
+                Projetos HW/SW
+              </h3>
               <p class="text-1xl mt-2 text-left text-slate-500">
                 Co-design de sistemas complexos de hardware/software.
               </p>
@@ -361,17 +363,14 @@
       </section>
 
       <hr class="mx-auto w-1/2" />
-      <section
-        id="contact"
-        class="my-12 scroll-mt-20 p-6"
-      >
+      <section id="contact" class="my-12 scroll-mt-20 p-2 lg:p-6">
         <h2 class="mb-6 text-center text-4xl font-bold text-white sm:text-5xl">
           Contato
         </h2>
         <ul
-          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-left gap-8 lg:flex-row sm:items-center"
+          class="mx-auto my-12 grid list-none grid-cols-1 gap-8 md:grid-cols-2 md:gap-2 lg:max-w-6xl lg:grid-cols-3"
         >
-          <li class="flex w-2/3 flex-col items-left px-2 py-6 sm:w-5/6 sm:flex-row sm:items-center">
+          <li class="">
             <svg
               class="h-16 w-16 fill-current text-slate-300"
               xmlns="http://www.w3.org/2000/svg"
@@ -385,13 +384,13 @@
               </g>
             </svg>
             <div class="items-left flex flex-col">
-              <h2 class="text-left text-3xl text-slate-300">WaveCommTech</h2>
+              <h3 class="text-xl text-slate-300 lg:text-2xl">WaveCommTech</h3>
               <p class="text-1xl mt-2 text-left text-slate-500">
-                São José dos Campos - SP / Brazil
+                São José dos Campos - SP / Brasil
               </p>
             </div>
           </li>
-          <li class="flex w-2/3 flex-col items-left px-2 py-6 sm:w-5/6 sm:flex-row sm:items-center">
+          <li class="">
             <svg
               class="h-16 w-16 fill-current text-slate-300"
               xmlns="http://www.w3.org/2000/svg"
@@ -403,20 +402,21 @@
               />
             </svg>
             <a href="tel:+551151961827">
-              <h2 class="ml-4 pb-6 text-left text-2xl text-slate-300 sm:items-center">
+              <h3 class="text-xl text-slate-300 lg:text-2xl">
                 +55 (11) 5196-1827
-              </h2>
+              </h3>
             </a>
           </li>
-          <li class="flex w-2/3 flex-col items-left px-2 py-6 sm:w-5/6 sm:flex-row sm:items-center">
+          <li class="">
             <svg
               class="h-16 w-16 fill-current text-slate-300"
               xmlns="http://www.w3.org/2000/svg"
               xml:space="preserve"
-              viewBox="-1 -1 80 80"
+              viewBox="0 -10 70 70"
             >
               <g>
-                <path d="M64 36.999c0 3.314-1.686 7-5 7H7c-3.314
+                <path
+                  d="M64 36.999c0 3.314-1.686 7-5 7H7c-3.314
                 0-7-3.686-7-7v-32c0-.161.047-.3.064-.453-.107-.578.01-1.191.424-1.669a1.98
                 1.98 0 0 1 .354-.315C2.113.871 4.639-.001 7-.001h52c2.738 0
                 4.346 1.169 4.829 3.438.133.327.179.669.134
@@ -424,28 +424,25 @@
                 1-3V8.346L33.309 29.698a1.99 1.99 0 0 1-1.309.488c-.467
                 0-.934-.162-1.31-.488L4 8.346v28.653c0 1.103 1.897 3 3
                 3Zm51-36H7c-.553 0-1.305-.026-1.919.088L32 25.54 59.028
-                3.999H58Z"/
+                3.999H58Z"
+                />
               </g>
             </svg>
             <a
               href="mailto:contact@wavecommunications.tech"
               class="link hover:opacity-90"
             >
-              <h2 class="pb-7 text-left text-xl text-slate-300 md:text-2xl">
+              <h3 class="text-xl text-slate-300 lg:text-2xl">
                 contact@wavecommunications.tech
-              </h2>
+              </h3>
             </a>
           </li>
-        </ul>
-        <ul
-          class="mx-auto my-12 flex max-w-6xl list-none flex-col items-left gap-8 md:flex-row sm:items-center"
-        >
-          <li class="flex w-2/3 flex-col items-left px-2 py-6 sm:w-5/6 sm:flex-row sm:items-center">
+          <li class="">
             <svg
               class="h-16 w-16 fill-current text-slate-300"
               xmlns="http://www.w3.org/2000/svg"
               xml:space="preserve"
-              viewBox="0 0 70 70"
+              viewBox="0 -10 70 70"
             >
               <path
                 d="M58.827,43.220 C57.101,44.462 52.274,46.112 32.014,46.112 C10.294,46.112 7.093,44.220 6.061,43.598 C0.696,40.376 0.063,27.346 -0.003,23.430 C0.046,20.466 0.567,5.843 6.065,2.540 C7.099,1.917 10.317,0.013 32.014,0.013 C52.261,0.013 57.093,1.671 58.827,2.919 C63.643,6.388 64.054,19.471 64.065,23.380 C64.052,28.239 63.513,39.848 58.827,43.220 ZM56.491,6.165 C55.790,5.661 51.776,4.013 32.014,4.013 C12.915,4.013 8.888,5.509 8.128,5.968 C6.220,7.112 4.155,13.993 3.997,23.419 C4.157,32.866 6.194,39.013 8.124,40.171 C8.882,40.628 12.894,42.112 32.014,42.112 C51.792,42.112 55.794,40.475 56.491,39.973 C58.192,38.749 60.038,33.038 60.065,23.391 C60.038,13.895 58.204,7.399 56.491,6.165 ZM27.061,35.962 C26.745,36.153 26.386,36.249 26.028,36.249 C25.690,36.249 25.350,36.163 25.046,35.991 C24.417,35.636 24.028,34.970 24.028,34.249 C24.028,34.249 24.028,12.159 24.028,12.159 C24.028,11.438 24.417,10.772 25.046,10.417 C25.673,10.063 26.442,10.073 27.061,10.446 C27.061,10.446 45.058,21.489 45.058,21.489 C45.657,21.850 46.024,22.501 46.024,23.202 C46.024,23.903 45.657,24.552 45.058,24.915 C45.058,24.915 27.061,35.962 27.061,35.962 ZM28.028,15.700 C28.028,15.700 28.028,30.706 28.028,30.706 C28.028,30.706 40.153,23.202 40.153,23.202 C40.153,23.202 28.028,15.700 28.028,15.700 Z"
@@ -455,17 +452,15 @@
               href="https://www.youtube.com/@WaveCommTech"
               class="link hover:opacity-90"
             >
-              <h2 class="ml-4 pb-6 text-left text-2xl text-slate-300 sm:text-center">
-                @WaveCommTech
-              </h2>
+              <h3 class="text-xl text-slate-300 lg:text-2xl">@WaveCommTech</h3>
             </a>
           </li>
-          <li class="flex w-2/3 flex-col items-left px-2 py-6 sm:w-5/6 sm:flex-row sm:items-center">
+          <li class="">
             <svg
               class="h-16 w-16 fill-current text-slate-300"
               xmlns="http://www.w3.org/2000/svg"
               xml:space="preserve"
-              viewBox="-300 0 1200 1200"
+              viewBox="-50 0 900 900"
             >
               <g>
                 <path
@@ -477,9 +472,9 @@
               href="https://www.linkedin.com/company/wavecomm-tech/"
               class="link hover:opacity-90"
             >
-              <h2 class="pb-7 text-center text-xl text-slate-300 sm:text-left sm:text-2xl">
+              <h3 class="text-xl text-slate-300 lg:text-2xl">
                 company/wavecomm-tech
-              </h2>
+              </h3>
             </a>
           </li>
         </ul>
@@ -489,7 +484,9 @@
       <section
         class="mx-auto flex max-w-6xl flex-col p-4 sm:flex-row sm:justify-between"
       >
-        <div class="items-left flex flex-col sm:flex-row sm:items-center sm:gap-1">
+        <div
+          class="items-left flex flex-col sm:flex-row sm:items-center sm:gap-1"
+        >
           <svg
             class="h-6 w-6 fill-current text-slate-300"
             xmlns="http://www.w3.org/2000/svg"
@@ -497,7 +494,8 @@
             viewBox="0 0 66 46"
           >
             <g>
-              <path d="M64 36.999c0 3.314-1.686 7-5 7H7c-3.314
+              <path
+                d="M64 36.999c0 3.314-1.686 7-5 7H7c-3.314
               0-7-3.686-7-7v-32c0-.161.047-.3.064-.453-.107-.578.01-1.191.424-1.669a1.98
               1.98 0 0 1 .354-.315C2.113.871 4.639-.001 7-.001h52c2.738 0 4.346
               1.169 4.829 3.438.133.327.179.669.134
@@ -505,14 +503,17 @@
               1-3V8.346L33.309 29.698a1.99 1.99 0 0 1-1.309.488c-.467
               0-.934-.162-1.31-.488L4 8.346v28.653c0 1.103 1.897 3 3
               3Zm51-36H7c-.553 0-1.305-.026-1.919.088L32 25.54 59.028
-              3.999H58Z"/
+              3.999H58Z"
+              />
             </g>
           </svg>
           <a
             href="mailto:contact@wavecommunications.tech"
             class="link hover:opacity-90"
           >
-            <p class="text-slate-300 text-xs text-left md:text-base">contact@wavecommunications.tech</p>
+            <p class="text-left text-xs text-slate-300 md:text-base">
+              contact@wavecommunications.tech
+            </p>
           </a>
         </div>
         <nav class="hidden flex-col gap-2 md:flex" aria-lable="footer">
@@ -521,9 +522,11 @@
           <a href="#services" class="link hover:opacity-90">Serviços</a>
           <a href="#contact" class="link hover:opacity-90">Contato</a>
         </nav>
-        <div class="flex flex-col sm:gap-2">
-          <p class="text-right">Copyright &copy; <span id="year">2023</span></p>
-          <p class="text-right">Todos os direitos reservados.</p>
+        <div
+          class="grid grid-cols-1 place-items-center gap-2 lg:place-items-end"
+        >
+          <p class="">Copyright &copy; <span id="year">2023</span></p>
+          <p class="">Todos os direitos reservados.</p>
         </div>
       </section>
     </footer>
