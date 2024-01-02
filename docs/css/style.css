@@ -690,6 +690,10 @@ video {
   height: fit-content;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .max-h-fit {
   max-height: -moz-fit-content;
   max-height: fit-content;
@@ -782,6 +786,10 @@ video {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .max-w-6xl {
@@ -978,6 +986,14 @@ video {
 
 .fill-current {
   fill: currentColor;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.stroke-current {
+  stroke: currentColor;
 }
 
 .object-contain {
